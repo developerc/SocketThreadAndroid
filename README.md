@@ -1,0 +1,1 @@
+This is an application that establishes stable connection with server over socket. It use first thread  for sending data, second thread fot receiving, and third thread for watching for them both. If connection is over, third thread establishes a new connection with server with sending and receiving data.
